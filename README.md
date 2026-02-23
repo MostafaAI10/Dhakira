@@ -25,8 +25,8 @@ memory = Memory()
 # Add memories from a conversation
 memory.add(
     messages=[
-        {"role": "user", "content": "اسمي حسام وأحب القهوة العربية"},
-        {"role": "assistant", "content": "أهلا حسام! القهوة العربية خيار رائع"},
+        {"role": "user", "content": "اسمي مصطفى وأحب القهوة العربية"},
+        {"role": "assistant", "content": "أهلا مصطفى! القهوة العربية خيار رائع"},
     ],
     user_id="user_123",
 )
